@@ -1,0 +1,65 @@
+[
+  {
+    "id": 0,
+    "name": "javascript训练营",
+    "desc": "参加JavaScript，早日迎娶白富美",
+    "thumbnail": "/js.jpg",
+    "signup": true
+  },
+  {
+    "id": 1,
+    "name": "Python训练营",
+    "desc": "参加Python训练营，早日出任CEO",
+    "thumbnail": "/python.jpg",
+    "signup": false
+  },
+  {
+    "id": 2,
+    "name": "Scala训练营",
+    "desc": "参加Scala训练营，早日走上人生巅峰",
+    "thumbnail": "/scala.jpg",
+    "signup": false
+  },
+  {
+    "id": 3,
+    "name": "javascript训练营",
+    "desc": "参加JavaScript，早日迎娶白富美",
+    "thumbnail": "/js.jpg",
+    "signup": true
+  },
+  {
+    "id": 4,
+    "name": "Python训练营",
+    "desc": "参加Python训练营，早日出任CEO",
+    "thumbnail": "/python.jpg",
+    "signup": false
+  },
+  {
+    "id": 5,
+    "name": "Scala训练营",
+    "desc": "参加Scala训练营，早日走上人生巅峰",
+    "thumbnail": "/scala.jpg",
+    "signup": false
+  },
+  {
+    "id": 6,
+    "name": "javascript训练营",
+    "desc": "参加JavaScript，早日迎娶白富美",
+    "thumbnail": "/js.jpg",
+    "signup": true
+  },
+  {
+    "id": 7,
+    "name": "Python训练营",
+    "desc": "参加Python训练营，早日出任CEO",
+    "thumbnail": "/python.jpg",
+    "signup": false
+  },
+  {
+    "id": 8,
+    "name": "Scala训练营",
+    "desc": "参加Scala训练营，早日走上人生巅峰",
+    "thumbnail": "/scala.jpg",
+    "signup": false
+  }
+]

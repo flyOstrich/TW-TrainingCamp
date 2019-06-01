@@ -39,7 +39,8 @@ export default {
     async signin() {
       try {
         await this.$refs.form.validate();
-        await fetch();
+        this.$router.push({ name: "training-camp" });
+        // await fetch();
       } catch (err) {
         console.error(err);
       }
