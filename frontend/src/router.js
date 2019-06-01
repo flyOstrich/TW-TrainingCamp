@@ -10,6 +10,11 @@ export default new Router({
       component: () => import("./views/SignIn.vue")
     },
     {
+      path: "/training-camp",
+      name: "training-camp",
+      component: () => import("./views/TrainingCamp.vue")
+    },
+    {
       path: "/apply/:id",
       name: "apply",
       component: () => import("./views/Apply.vue")
