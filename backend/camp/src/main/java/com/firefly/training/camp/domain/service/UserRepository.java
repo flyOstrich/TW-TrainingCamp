@@ -1,4 +1,4 @@
-package com.firefly.training.camp;
+package com.firefly.training.camp.domain.service;
 
 public interface UserRepository {
 

@@ -1,6 +1,7 @@
-package com.firefly.training.camp;
+package com.firefly.training.camp.service;
 
 
+import com.firefly.training.camp.domain.service.UserRepository;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
