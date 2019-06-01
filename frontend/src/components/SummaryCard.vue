@@ -1,6 +1,5 @@
 <template>
   <el-card :body-style="{ padding: '0px' }">
-    {{thumbnail}}
     <img :src="thumbnail" class="image">
     <div class="summary">
       <slot></slot>
@@ -20,6 +19,9 @@ export default {
   .summary {
     padding: 5px;
     text-align: left;
+  }
+  img {
+    max-width: 300px;
   }
 }
 </style>

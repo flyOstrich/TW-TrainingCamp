@@ -1,12 +1,22 @@
 <template>
-  <div class="trianing-camp">
-    {{camps}}
-    <div class="summary-card" v-for="camp in camps" :key="camp[id]">
+  <div class="training-camp">
+    <div class="summary-card" v-for="camp in camps" :key="camp['id']">
       <summary-card :thumbnail="camp['thumbnail']">
-        <span>camp.name</span>
-        <div class="bottom clearfix">
-          <time class="time">{{ camp.desc }}</time>
-          <el-button type="text" class="button">操作按钮</el-button>
+        <span>{{camp.name}}</span>
+        <div>{{ camp.desc }}</div>
+        <div>
+          <el-button
+            type="text"
+            class="button"
+            v-if="camp.signup"
+            @click="$router.push('/task/1')"
+          >查看任务卡>></el-button>
+          <el-button
+            type="text"
+            class="button"
+            v-if="!camp.signup"
+            @click="$router.push('/apply/1')"
+          >去报名>></el-button>
         </div>
       </summary-card>
     </div>
@@ -24,13 +34,12 @@ export default {
   async created() {
     let resp = await fetch("/mocks/training-camps.json");
     this.camps = await resp.json();
-    console.log(this.camps);
   }
 };
 </script>
 <style lang="less">
 .training-camp {
-  height: 90%;
+  width: 90vw;
   margin: 70px 0 0 70px;
   padding-bottom: 80px;
   display: flex;
@@ -40,7 +49,7 @@ export default {
   flex-wrap: wrap;
   overflow: auto;
   .summary-card {
-    margin: 10px;
+    margin: 25px;
   }
 }
 </style>
