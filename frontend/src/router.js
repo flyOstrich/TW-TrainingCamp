@@ -1,7 +1,5 @@
 import Vue from "vue";
 import Router from "vue-router";
-import SignIn from "./views/SignIn.vue";
-
 Vue.use(Router);
 
 export default new Router({
@@ -9,7 +7,17 @@ export default new Router({
     {
       path: "/",
       name: "signin",
-      component: SignIn
+      component: () => import("./views/SignIn.vue")
+    },
+    {
+      path: "/apply/:id",
+      name: "apply",
+      component: () => import("./views/Apply.vue")
+    },
+    {
+      path: "/task/:id",
+      name: "task",
+      component: () => import("./views/TaskList.vue")
     }
   ]
 });
