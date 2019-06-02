@@ -1,9 +1,16 @@
 <template>
   <div class="apply">
     <el-divider content-position="center">语文</el-divider>
-    <div
-      class="desc"
-    >王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎</div>
+    <div class="desc">
+      <p>参加Python训练营，早日出任CEO</p>
+      <p>参加Python训练营，早日出任CEO</p>
+      <p>参加Python训练营，早日出任CEO</p>
+      <p>参加Python训练营，早日出任CEO</p>
+      <p>参加Python训练营，早日出任CEO</p>
+      <p>参加Python训练营，早日出任CEO</p>
+      <p>参加Python训练营，早日出任CEO</p>
+      <p>参加Python训练营，早日出任CEO</p>
+    </div>
     <div class="apply-btn">
       <el-button type="primary" @click="applyClick">报名</el-button>
     </div>
