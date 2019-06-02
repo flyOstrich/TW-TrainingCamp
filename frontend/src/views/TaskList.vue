@@ -1,6 +1,6 @@
 <template>
-  <div class="apply">
-    <el-divider content-position="center">{{ id }}任务列表</el-divider>
+  <div class="task">
+    <el-divider content-position="center">语文任务列表</el-divider>
     <div class="desc">
       <el-table :data="tableData" style="width: 100%">
         <el-table-column prop="date" header-align="left" align="left" label="任务"></el-table-column>
@@ -20,20 +20,20 @@ export default {
       id: null,
       tableData: [
         {
-          date: "2016-05-02",
-          name: "王小虎"
+          date: "背诵",
+          name: "背诵一篇文章"
         },
         {
-          date: "2016-05-04",
-          name: "王小虎"
+          date: "背诵",
+          name: "背诵一篇文章"
         },
         {
-          date: "2016-05-01",
-          name: "王小虎"
+          date: "背诵",
+          name: "背诵一篇文章"
         },
         {
-          date: "2016-05-03",
-          name: "王小虎"
+          date: "背诵",
+          name: "背诵一篇文章"
         }
       ]
     };
@@ -42,8 +42,9 @@ export default {
 </script>
 
 <style scoped lang="less">
-.apply {
+.task {
   padding: 15px;
+  margin-top: 50px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   .desc {
     text-indent: 2em;
